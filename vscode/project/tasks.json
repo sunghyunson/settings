@@ -1,0 +1,39 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+    },
+	"tasks": [
+		{
+            "label": "build_ehorizon",
+            "type": "shell",
+            "command": "source setenv.sh && make clean && make install",
+            "problemMatcher": [
+                // "$eslint-compact"
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "deploy_ehorizon",
+            "type": "shell",
+            "command": "~/build/deploy_ehorizon.sh",
+            //"dependsOn": "build_ehorizon",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+	]
+}

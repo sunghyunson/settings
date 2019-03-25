@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/mnt/e/proteus_work/LGE/Release/framework/include/**",
+                "/mnt/e/proteus_work/LGE/ICCM/JLR-SDK/proteus-sdk/QNX/target/qnx7/usr/include"
+            ],
+            "defines": [
+                "__aarch64__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
