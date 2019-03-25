@@ -1,0 +1,7 @@
+export DIR_ehorizon="$HOME/proteus_work/LGE/ICCM/framework/ehorizon/ehorizonservice"
+export DIR_rcd="$HOME/proteus_work/LGE/ICCM/framework/rcd/rcdmanager/rcdservice"
+export DIR_target="$HOME/proteus_work/LGE/Release/target"
+export DIR_build="$HOME/proteus_work/QC/qnx_ap/3rdparty"
+export DIR_framework="$HOME/proteus_work/LGE/ICCM/framework"
+export DIR_bin="$HOME/bin"
+export DIR_nas="$HOME/nas"
